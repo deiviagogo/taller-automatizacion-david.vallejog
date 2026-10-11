@@ -1,0 +1,13 @@
+2026-10-10 17:47:02,329 | INFO    | ===== Inicio de la ejecución (2026-10-10) =====
+2026-10-10 17:47:02,337 | INFO    | Filas a procesar: 6
+2026-10-10 17:47:03,908 | WARNING | Chromium no está instalado; instalándolo (solo la primera vez)
+2026-10-10 17:47:59,923 | INFO    | Iniciando sesión en SICOF
+2026-10-10 17:48:03,487 | INFO    | IdLista=6 factura=FE-20871 NIT=900123456 | CAUSADA | CXP-2026-000001
+2026-10-10 17:48:05,126 | INFO    | IdLista=7 factura=TR-5530 NIT=800234567 | CAUSADA | CXP-2026-000002
+2026-10-10 17:48:06,726 | WARNING | IdLista=9 factura=ST-3307 NIT=830456789 | reintento 2/3 tras falla de sistema | SICOF respondió: Servicio temporalmente no disponible (SICOF-503)
+2026-10-10 17:48:09,297 | INFO    | IdLista=9 factura=ST-3307 NIT=830456789 | CAUSADA | CXP-2026-000003
+2026-10-10 17:48:10,878 | INFO    | IdLista=10 factura=MI-0077 NIT=900999001 | RECHAZADA | El NIT 900999001 no está registrado como proveedor
+2026-10-10 17:48:12,460 | INFO    | IdLista=12 factura=FE-20871 NIT=901345678 | CAUSADA | CXP-2026-000004
+2026-10-10 17:48:12,474 | INFO    | IdLista=21 factura=PS-1188 NIT=860567890 | RECHAZADA (sin tocar SICOF) | La fecha de factura (2027-01-15) es posterior a la fecha de ejecución (2026-10-10)
+2026-10-10 17:48:13,123 | INFO    | Resumen: {'CAUSADA': 4, 'RECHAZADA': 2}
+2026-10-10 17:48:13,123 | INFO    | ===== Fin de la ejecución =====

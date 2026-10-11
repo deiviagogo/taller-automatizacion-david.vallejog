@@ -1,0 +1,11 @@
+[project]
+name = "robot-causaciones"
+version = "1.0.0"
+description = "Robot que causa facturas de proveedores en SICOF"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "playwright==1.62.0",
+    "openpyxl==3.1.5",
+    "python-dotenv==1.2.3",
+    "tenacity==9.1.4",
+]
